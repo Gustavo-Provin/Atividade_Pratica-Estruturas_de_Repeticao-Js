@@ -148,9 +148,9 @@ for (let i = 30; i > 0; i--) {
     }
     
     if (divisiveis === 2) {
-        console.log(`[${i}]`)
+        document.write(`[${i}]`)
     } else {
-        console.log(i)
+        document.write(i)
     }
     divisiveis = 0
 
